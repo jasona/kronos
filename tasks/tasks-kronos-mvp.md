@@ -79,16 +79,16 @@ Update the file after completing each sub-task, not just after completing an ent
   - [x] 1.8 Create `$lib/utils/index.ts` with `cn()` helper function
   - [x] 1.9 Set up environment variables structure (`.env.example` with DATABASE_URL, AUTH_SECRET, SMTP settings)
 
-- [ ] 2.0 Database schema and data layer
-  - [ ] 2.1 Define Job model in Prisma schema (id, name, description, schedule, type, config JSON, status, tags, timeout, retryPolicy, createdAt, updatedAt)
-  - [ ] 2.2 Define Execution model (id, jobId, startedAt, finishedAt, exitCode, trigger, status)
-  - [ ] 2.3 Define Log model (id, executionId, stream enum stdout/stderr, content, createdAt)
-  - [ ] 2.4 Define Notification model (id, type enum webhook/email, config JSON, jobIds, createdAt)
-  - [ ] 2.5 Define User model (id, username, passwordHash, apiKey, createdAt)
-  - [ ] 2.6 Define Settings model for global app settings (id, key, value JSON)
-  - [ ] 2.7 Run initial migration: `npx prisma migrate dev --name init`
-  - [ ] 2.8 Create `$lib/server/db.ts` with Prisma client singleton
-  - [ ] 2.9 Create seed script for default admin user
+- [x] 2.0 Database schema and data layer
+  - [x] 2.1 Define Job model in Prisma schema (id, name, description, schedule, type, config JSON, status, tags, timeout, retryPolicy, createdAt, updatedAt)
+  - [x] 2.2 Define Execution model (id, jobId, startedAt, finishedAt, exitCode, trigger, status)
+  - [x] 2.3 Define Log model (id, executionId, stream enum stdout/stderr, content, createdAt)
+  - [x] 2.4 Define Notification model (id, type enum webhook/email, config JSON, jobIds, createdAt)
+  - [x] 2.5 Define User model (id, username, passwordHash, apiKey, createdAt)
+  - [x] 2.6 Define Settings model for global app settings (id, key, value JSON)
+  - [x] 2.7 Run initial migration: `npx prisma migrate dev --name init`
+  - [x] 2.8 Create `$lib/server/db.ts` with Prisma client singleton
+  - [x] 2.9 Create seed script for default admin user
 
 - [ ] 3.0 Authentication system
   - [ ] 3.1 Create password hashing utilities in `$lib/server/auth.ts` (using bcrypt or argon2)
