@@ -138,16 +138,16 @@ Update the file after completing each sub-task, not just after completing an ent
   - [x] 6.9 Create manual trigger endpoint (`/api/jobs/[id]/trigger/+server.ts`)
   - [x] 6.10 Add execution result recording (exit code, duration, status)
 
-- [ ] 7.0 Execution history and log storage
-  - [ ] 7.1 Create execution recording service that persists execution metadata
-  - [ ] 7.2 Implement log capture service that stores stdout/stderr per execution
-  - [ ] 7.3 Create execution history page UI (`/jobs/[id]/executions/+page.svelte`)
-  - [ ] 7.4 Implement execution list with pagination and filtering by status
-  - [ ] 7.5 Create log viewer component with syntax highlighting (using highlight.js or similar)
-  - [ ] 7.6 Add log search functionality
-  - [ ] 7.7 Implement log retention policy (configurable: last N runs or last N days)
-  - [ ] 7.8 Create background job for log cleanup based on retention policy
-  - [ ] 7.9 Implement REST API for executions (`/api/executions/+server.ts`)
+- [x] 7.0 Execution history and log storage
+  - [x] 7.1 Create execution recording service that persists execution metadata
+  - [x] 7.2 Implement log capture service that stores stdout/stderr per execution
+  - [x] 7.3 Create execution history page UI (`/jobs/[id]/executions/+page.svelte`)
+  - [x] 7.4 Implement execution list with pagination and filtering by status
+  - [x] 7.5 Create log viewer component with syntax highlighting (using highlight.js or similar)
+  - [x] 7.6 Add log search functionality
+  - [x] 7.7 Implement log retention policy (configurable: last N runs or last N days)
+  - [x] 7.8 Create background job for log cleanup based on retention policy
+  - [x] 7.9 Implement REST API for executions (`/api/executions/+server.ts`)
 
 - [ ] 8.0 Dashboard UI
   - [ ] 8.1 Create dashboard layout with summary cards (`/dashboard/+page.svelte`)
