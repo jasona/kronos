@@ -90,16 +90,16 @@ Update the file after completing each sub-task, not just after completing an ent
   - [x] 2.8 Create `$lib/server/db.ts` with Prisma client singleton
   - [x] 2.9 Create seed script for default admin user
 
-- [ ] 3.0 Authentication system
-  - [ ] 3.1 Create password hashing utilities in `$lib/server/auth.ts` (using bcrypt or argon2)
-  - [ ] 3.2 Create session management utilities (cookie-based sessions)
-  - [ ] 3.3 Create API key validation utility
-  - [ ] 3.4 Implement `hooks.server.ts` to parse session/API key and populate `locals.user`
-  - [ ] 3.5 Create login page UI (`/auth/login/+page.svelte`) with form
-  - [ ] 3.6 Implement login form action with Zod validation (`/auth/login/+page.server.ts`)
-  - [ ] 3.7 Create logout action
-  - [ ] 3.8 Create `(app)/+layout.server.ts` auth guard that redirects unauthenticated users to login
-  - [ ] 3.9 Create API key management page for generating/revoking keys
+- [x] 3.0 Authentication system
+  - [x] 3.1 Create password hashing utilities in `$lib/server/auth.ts` (using bcrypt or argon2)
+  - [x] 3.2 Create session management utilities (cookie-based sessions)
+  - [x] 3.3 Create API key validation utility
+  - [x] 3.4 Implement `hooks.server.ts` to parse session/API key and populate `locals.user`
+  - [x] 3.5 Create login page UI (`/auth/login/+page.svelte`) with form
+  - [x] 3.6 Implement login form action with Zod validation (`/auth/login/+page.server.ts`)
+  - [x] 3.7 Create logout action
+  - [x] 3.8 Create `(app)/+layout.server.ts` auth guard that redirects unauthenticated users to login
+  - [x] 3.9 Create API key management page for generating/revoking keys
 
 - [ ] 4.0 Job management (CRUD)
   - [ ] 4.1 Create Zod schemas for job validation (`$lib/utils/schemas.ts`)
