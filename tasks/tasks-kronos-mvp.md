@@ -101,20 +101,20 @@ Update the file after completing each sub-task, not just after completing an ent
   - [x] 3.8 Create `(app)/+layout.server.ts` auth guard that redirects unauthenticated users to login
   - [x] 3.9 Create API key management page for generating/revoking keys
 
-- [ ] 4.0 Job management (CRUD)
-  - [ ] 4.1 Create Zod schemas for job validation (`$lib/utils/schemas.ts`)
-  - [ ] 4.2 Create job list page UI with table, status badges, and action buttons (`/jobs/+page.svelte`)
-  - [ ] 4.3 Implement job list server load function with filtering/sorting (`/jobs/+page.server.ts`)
-  - [ ] 4.4 Create job create/edit form component with cron expression input and human-readable preview
-  - [ ] 4.5 Create visual cron builder component (dropdowns for minute, hour, day, month, weekday)
-  - [ ] 4.6 Implement job create form action with validation
-  - [ ] 4.7 Create job detail page UI (`/jobs/[id]/+page.svelte`)
-  - [ ] 4.8 Implement job update form action
-  - [ ] 4.9 Implement job delete action with confirmation dialog
-  - [ ] 4.10 Add job pause/resume toggle functionality
-  - [ ] 4.11 Create environment variables editor component with secret masking
-  - [ ] 4.12 Add job tagging UI (multi-select or tag input)
-  - [ ] 4.13 Implement REST API endpoints for jobs (`/api/jobs/+server.ts`, `/api/jobs/[id]/+server.ts`)
+- [x] 4.0 Job management (CRUD)
+  - [x] 4.1 Create Zod schemas for job validation (`$lib/utils/schemas.ts`)
+  - [x] 4.2 Create job list page UI with table, status badges, and action buttons (`/jobs/+page.svelte`)
+  - [x] 4.3 Implement job list server load function with filtering/sorting (`/jobs/+page.server.ts`)
+  - [x] 4.4 Create job create/edit form component with cron expression input and human-readable preview
+  - [x] 4.5 Create visual cron builder component (dropdowns for minute, hour, day, month, weekday)
+  - [x] 4.6 Implement job create form action with validation
+  - [x] 4.7 Create job detail page UI (`/jobs/[id]/+page.svelte`)
+  - [x] 4.8 Implement job update form action
+  - [x] 4.9 Implement job delete action with confirmation dialog
+  - [x] 4.10 Add job pause/resume toggle functionality
+  - [x] 4.11 Create environment variables editor component with secret masking
+  - [x] 4.12 Add job tagging UI (multi-select or tag input)
+  - [x] 4.13 Implement REST API endpoints for jobs (`/api/jobs/+server.ts`, `/api/jobs/[id]/+server.ts`)
 
 - [ ] 5.0 Scheduler engine
   - [ ] 5.1 Create scheduler service in `$lib/server/scheduler.ts`
