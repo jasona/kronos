@@ -149,17 +149,17 @@ Update the file after completing each sub-task, not just after completing an ent
   - [x] 7.8 Create background job for log cleanup based on retention policy
   - [x] 7.9 Implement REST API for executions (`/api/executions/+server.ts`)
 
-- [ ] 8.0 Dashboard UI
-  - [ ] 8.1 Create dashboard layout with summary cards (`/dashboard/+page.svelte`)
-  - [ ] 8.2 Implement system health summary (total jobs, success rate 24h, currently running, next execution)
-  - [ ] 8.3 Create job status overview component (healthy, failing, paused, overdue counts)
-  - [ ] 8.4 Build execution timeline component (Gantt-style horizontal bars for recent runs)
-  - [ ] 8.5 Add next-run countdown timers for each job
-  - [ ] 8.6 Implement SSE endpoint for real-time updates (`/api/events/+server.ts`)
-  - [ ] 8.7 Create SSE client hook/store for dashboard reactivity
-  - [ ] 8.8 Add quick-action buttons: pause all, resume all, trigger job
-  - [ ] 8.9 Implement job status indicators with color coding (green=healthy, red=failing, yellow=paused, orange=overdue)
-  - [ ] 8.10 Create responsive layout for mobile/tablet views
+- [x] 8.0 Dashboard UI
+  - [x] 8.1 Create dashboard layout with summary cards (`/dashboard/+page.svelte`)
+  - [x] 8.2 Implement system health summary (total jobs, success rate 24h, currently running, next execution)
+  - [x] 8.3 Create job status overview component (healthy, failing, paused, overdue counts)
+  - [x] 8.4 Build execution timeline component (Gantt-style horizontal bars for recent runs)
+  - [x] 8.5 Add next-run countdown timers for each job
+  - [x] 8.6 Implement SSE endpoint for real-time updates (`/api/events/+server.ts`)
+  - [x] 8.7 Create SSE client hook/store for dashboard reactivity
+  - [x] 8.8 Add quick-action buttons: pause all, resume all, trigger job
+  - [x] 8.9 Implement job status indicators with color coding (green=healthy, red=failing, yellow=paused, orange=overdue)
+  - [x] 8.10 Create responsive layout for mobile/tablet views
 
 - [ ] 9.0 Notification system
   - [ ] 9.1 Create notification service in `$lib/server/notifications.ts`
