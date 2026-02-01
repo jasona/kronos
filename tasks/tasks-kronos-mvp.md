@@ -116,27 +116,27 @@ Update the file after completing each sub-task, not just after completing an ent
   - [x] 4.12 Add job tagging UI (multi-select or tag input)
   - [x] 4.13 Implement REST API endpoints for jobs (`/api/jobs/+server.ts`, `/api/jobs/[id]/+server.ts`)
 
-- [ ] 5.0 Scheduler engine
-  - [ ] 5.1 Create scheduler service in `$lib/server/scheduler.ts`
-  - [ ] 5.2 Implement job loading from database on startup
-  - [ ] 5.3 Implement cron expression parsing and next-run calculation
-  - [ ] 5.4 Create tick-based scheduler loop that checks for due jobs
-  - [ ] 5.5 Implement job queue to prevent overlapping executions of the same job
-  - [ ] 5.6 Add scheduler start/stop lifecycle hooks for graceful shutdown
-  - [ ] 5.7 Implement dynamic job registration (add/update/remove jobs without restart)
-  - [ ] 5.8 Create scheduler status endpoint for health checks
+- [x] 5.0 Scheduler engine
+  - [x] 5.1 Create scheduler service in `$lib/server/scheduler.ts`
+  - [x] 5.2 Implement job loading from database on startup
+  - [x] 5.3 Implement cron expression parsing and next-run calculation
+  - [x] 5.4 Create tick-based scheduler loop that checks for due jobs
+  - [x] 5.5 Implement job queue to prevent overlapping executions of the same job
+  - [x] 5.6 Add scheduler start/stop lifecycle hooks for graceful shutdown
+  - [x] 5.7 Implement dynamic job registration (add/update/remove jobs without restart)
+  - [x] 5.8 Create scheduler status endpoint for health checks
 
-- [ ] 6.0 Job execution system
-  - [ ] 6.1 Create executor interface/type definitions in `$lib/server/executor.ts`
-  - [ ] 6.2 Implement shell command executor using child_process.spawn
-  - [ ] 6.3 Implement HTTP request executor with configurable method, headers, body
-  - [ ] 6.4 Implement Docker exec executor using dockerode SDK
-  - [ ] 6.5 Add timeout handling with automatic process kill
-  - [ ] 6.6 Implement retry logic with configurable backoff (fixed, exponential)
-  - [ ] 6.7 Create execution context with environment variable injection
-  - [ ] 6.8 Implement stdout/stderr streaming and capture
-  - [ ] 6.9 Create manual trigger endpoint (`/api/jobs/[id]/trigger/+server.ts`)
-  - [ ] 6.10 Add execution result recording (exit code, duration, status)
+- [x] 6.0 Job execution system
+  - [x] 6.1 Create executor interface/type definitions in `$lib/server/executor.ts`
+  - [x] 6.2 Implement shell command executor using child_process.spawn
+  - [x] 6.3 Implement HTTP request executor with configurable method, headers, body
+  - [x] 6.4 Implement Docker exec executor using dockerode SDK
+  - [x] 6.5 Add timeout handling with automatic process kill
+  - [x] 6.6 Implement retry logic with configurable backoff (fixed, exponential)
+  - [x] 6.7 Create execution context with environment variable injection
+  - [x] 6.8 Implement stdout/stderr streaming and capture
+  - [x] 6.9 Create manual trigger endpoint (`/api/jobs/[id]/trigger/+server.ts`)
+  - [x] 6.10 Add execution result recording (exit code, duration, status)
 
 - [ ] 7.0 Execution history and log storage
   - [ ] 7.1 Create execution recording service that persists execution metadata
