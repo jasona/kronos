@@ -42,6 +42,7 @@
 						<DropdownMenu.Label>My Account</DropdownMenu.Label>
 						<DropdownMenu.Separator />
 						<DropdownMenu.Item href="/settings/api-keys">API Keys</DropdownMenu.Item>
+						<DropdownMenu.Item href="/settings/notifications">Notifications</DropdownMenu.Item>
 						<DropdownMenu.Separator />
 						<form method="POST" action="/auth/logout" use:enhance>
 							<DropdownMenu.Item>

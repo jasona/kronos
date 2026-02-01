@@ -161,17 +161,17 @@ Update the file after completing each sub-task, not just after completing an ent
   - [x] 8.9 Implement job status indicators with color coding (green=healthy, red=failing, yellow=paused, orange=overdue)
   - [x] 8.10 Create responsive layout for mobile/tablet views
 
-- [ ] 9.0 Notification system
-  - [ ] 9.1 Create notification service in `$lib/server/notifications.ts`
-  - [ ] 9.2 Implement webhook sender (POST to configured URL with JSON payload)
-  - [ ] 9.3 Implement email sender using nodemailer with SMTP configuration
-  - [ ] 9.4 Define notification trigger events (job_failed, job_timeout, job_recovered)
-  - [ ] 9.5 Create notification settings page UI
-  - [ ] 9.6 Implement webhook channel configuration (URL, optional headers)
-  - [ ] 9.7 Implement email channel configuration (SMTP host, port, auth, from address)
-  - [ ] 9.8 Create per-job notification preferences override UI
-  - [ ] 9.9 Add notification testing (send test webhook/email)
-  - [ ] 9.10 Implement notification history/log for debugging delivery issues
+- [x] 9.0 Notification system
+  - [x] 9.1 Create notification service in `$lib/server/notifications.ts`
+  - [x] 9.2 Implement webhook sender (POST to configured URL with JSON payload)
+  - [x] 9.3 Implement email sender using nodemailer with SMTP configuration
+  - [x] 9.4 Define notification trigger events (job_failed, job_timeout, job_recovered)
+  - [x] 9.5 Create notification settings page UI
+  - [x] 9.6 Implement webhook channel configuration (URL, optional headers)
+  - [x] 9.7 Implement email channel configuration (SMTP host, port, auth, from address)
+  - [x] 9.8 Create per-job notification preferences override UI
+  - [x] 9.9 Add notification testing (send test webhook/email)
+  - [x] 9.10 Implement notification history/log for debugging delivery issues
 
 - [ ] 10.0 Docker packaging and deployment
   - [ ] 10.1 Create multi-stage Dockerfile (build stage + runtime stage)
