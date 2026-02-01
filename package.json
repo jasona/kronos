@@ -57,6 +57,7 @@
 	"dependencies": {
 		"@prisma/adapter-better-sqlite3": "^7.3.0",
 		"@prisma/client": "^7.3.0",
+		"@sveltejs/adapter-node": "^5.5.2",
 		"argon2": "^0.44.0",
 		"better-sqlite3": "^12.6.2",
 		"dockerode": "^4.0.9",

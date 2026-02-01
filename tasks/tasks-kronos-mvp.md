@@ -173,14 +173,14 @@ Update the file after completing each sub-task, not just after completing an ent
   - [x] 9.9 Add notification testing (send test webhook/email)
   - [x] 9.10 Implement notification history/log for debugging delivery issues
 
-- [ ] 10.0 Docker packaging and deployment
-  - [ ] 10.1 Create multi-stage Dockerfile (build stage + runtime stage)
-  - [ ] 10.2 Configure SQLite database path to use mounted volume (`/data/kronos.db`)
-  - [ ] 10.3 Add health check endpoint (`/api/health`)
-  - [ ] 10.4 Create docker-compose.yml for local development
-  - [ ] 10.5 Set up multi-arch build (amd64/arm64) using docker buildx
-  - [ ] 10.6 Configure environment variable pass-through for runtime settings
-  - [ ] 10.7 Add graceful shutdown handling (SIGTERM/SIGINT)
-  - [ ] 10.8 Create startup script that runs migrations and seeds default user if needed
-  - [ ] 10.9 Document deployment instructions in README
-  - [ ] 10.10 Test deployment on clean Docker environment
+- [x] 10.0 Docker packaging and deployment
+  - [x] 10.1 Create multi-stage Dockerfile (build stage + runtime stage)
+  - [x] 10.2 Configure SQLite database path to use mounted volume (`/data/kronos.db`)
+  - [x] 10.3 Add health check endpoint (`/api/health`)
+  - [x] 10.4 Create docker-compose.yml for local development
+  - [x] 10.5 Set up multi-arch build (amd64/arm64) using docker buildx
+  - [x] 10.6 Configure environment variable pass-through for runtime settings
+  - [x] 10.7 Add graceful shutdown handling (SIGTERM/SIGINT)
+  - [x] 10.8 Create startup script that runs migrations and seeds default user if needed
+  - [x] 10.9 Document deployment instructions in README
+  - [x] 10.10 Test deployment on clean Docker environment

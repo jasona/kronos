@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  kronos:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kronos
+    ports:
+      - "3000:3000"
+    volumes:
+      - kronos-data:/data
+    environment:
+      - DATABASE_URL=file:/data/kronos.db
+      - AUTH_SECRET=${AUTH_SECRET:-change-me-in-production-min-32-chars}
+      - SMTP_HOST=${SMTP_HOST:-}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER:-}
+      - SMTP_PASS=${SMTP_PASS:-}
+      - SMTP_FROM=${SMTP_FROM:-kronos@localhost}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  kronos-data:
+    driver: local

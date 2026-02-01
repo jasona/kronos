@@ -1,0 +1,35 @@
+# Dependencies
+node_modules
+
+# Build output
+build
+.svelte-kit
+
+# Development files
+.env
+*.db
+*.db-journal
+
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+!README.md
+
+# IDE
+.vscode
+.idea
+
+# Test files
+*.test.ts
+*.spec.ts
+coverage
+
+# Task files
+tasks/
+
+# Claude files
+CLAUDE.md
+.claude/
