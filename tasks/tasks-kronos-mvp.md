@@ -68,16 +68,16 @@ Update the file after completing each sub-task, not just after completing an ent
 - [x] 0.0 Create feature branch
   - [x] 0.1 Create and checkout a new branch: `git checkout -b feature/kronos-mvp`
 
-- [ ] 1.0 Project scaffolding and configuration
-  - [ ] 1.1 Initialize SvelteKit project with TypeScript (`npm create svelte@latest`)
-  - [ ] 1.2 Install and configure Tailwind CSS
-  - [ ] 1.3 Install and configure shadcn-svelte (`npx shadcn-svelte@latest init`)
-  - [ ] 1.4 Add essential shadcn components (Button, Card, Dialog, Input, Label, Table, Badge, Dropdown Menu, Tabs, Toast)
-  - [ ] 1.5 Install Prisma and initialize with SQLite provider
-  - [ ] 1.6 Install additional dependencies: zod, node-cron, nodemailer, dockerode
-  - [ ] 1.7 Configure ESLint and Prettier with project rules
-  - [ ] 1.8 Create `$lib/utils/index.ts` with `cn()` helper function
-  - [ ] 1.9 Set up environment variables structure (`.env.example` with DATABASE_URL, AUTH_SECRET, SMTP settings)
+- [x] 1.0 Project scaffolding and configuration
+  - [x] 1.1 Initialize SvelteKit project with TypeScript (`npm create svelte@latest`)
+  - [x] 1.2 Install and configure Tailwind CSS
+  - [x] 1.3 Install and configure shadcn-svelte (`npx shadcn-svelte@latest init`)
+  - [x] 1.4 Add essential shadcn components (Button, Card, Dialog, Input, Label, Table, Badge, Dropdown Menu, Tabs, Toast)
+  - [x] 1.5 Install Prisma and initialize with SQLite provider
+  - [x] 1.6 Install additional dependencies: zod, node-cron, nodemailer, dockerode
+  - [x] 1.7 Configure ESLint and Prettier with project rules
+  - [x] 1.8 Create `$lib/utils/index.ts` with `cn()` helper function
+  - [x] 1.9 Set up environment variables structure (`.env.example` with DATABASE_URL, AUTH_SECRET, SMTP settings)
 
 - [ ] 2.0 Database schema and data layer
   - [ ] 2.1 Define Job model in Prisma schema (id, name, description, schedule, type, config JSON, status, tags, timeout, retryPolicy, createdAt, updatedAt)
